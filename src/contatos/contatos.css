@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --JetBrains: "JetBrains Mono", monospace;
+    --AzeretMono: "Azeret Mono", monospace;
+}
+
+body {
+    background-color: #1f1e1e;
+    transition: margin-left 0.5s; 
+}
+
+.titulo {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--AzeretMono);
+    color: #d3d3d3;
+    top: 50px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 30px;
+    width: 100%; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--AzeretMono);
+    color: #d3d3d3;
+    top: 150px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 25px;
+    width: 100%; 
+    text-align: center;
+}
+
+.title-plataformas {
+    position: fixed;
+    font-weight: bold;
+    font-size: 70px;
+    top: 120px;
+    animation: rgbDropShadow 3s infinite linear;
+}
+
+.icones {
+    position: fixed;
+    top: 350px;
+    font-size: 100px;
+    animation: rgbDropShadow 3s infinite linear;
+}
+
+.menu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px; 
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--AzeretMono);
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #575757;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+}
+
+@keyframes rgbDropShadow {
+  0% {
+    filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5));
+  }
+  33% {
+    filter: drop-shadow(0 0 10px rgba(0, 255, 0, 0.5));
+  }
+  66% {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 255, 0.5));
+  }
+  100% {
+    filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5));
+  }
+}
+
+a:link {
+    color: inherit;       
+    text-decoration: none; 
+    outline: none;         
+}
