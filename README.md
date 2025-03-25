@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![GitHub language count](https://img.shields.io/github/languages/count/ndzinxz/projeto-de-portfolio?style=for-the-badge)
+  ![GitHub language count](https://img.shields.io/github/languages/count/ndzinxz/portfolio?style=for-the-badge)
   ![GitHub forks](https://img.shields.io/github/forks/ndzinxz/projeto-de-portfolio?style=for-the-badge)
 
 </div>
