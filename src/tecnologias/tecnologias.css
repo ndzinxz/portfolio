@@ -144,3 +144,83 @@ body {
     filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5));
   }
 }
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 20px;
+        top: 30px;
+    }
+
+    .texto {
+        font-size: 12px;
+        top: 100px;
+    }
+
+    .fa-arrow-down {
+        font-size: 70px;
+        top: 40px;
+    }
+
+    .skills {
+        font-size: 50px;
+        top: 80px;
+    }
+
+    .skills-icons {
+        width: 400px;
+        top: 300px;
+    }
+
+    .menu {
+        width: 200px;
+    }
+
+    .menu a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    #main {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 16px;
+        top: 40px;
+    }
+
+    .texto {
+        font-size: 10px;
+        top: 100px;
+    }
+
+    .fa-arrow-down {
+        font-size: 50px;
+        top: 50px;
+    }
+
+    .skills {
+        font-size: 40px;
+        top: 80px;
+    }
+
+    .skills-icons {
+        width: 300px;
+        top: 270px;
+    }
+
+    .menu {
+        width: 150px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    #main {
+        padding: 4px;
+    }
+}

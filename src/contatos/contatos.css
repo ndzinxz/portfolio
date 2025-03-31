@@ -118,3 +118,73 @@ a:link {
     text-decoration: none; 
     outline: none;         
 }
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 20px;
+        top: 30px;
+    }
+
+    .texto {
+        font-size: 18px;
+        top: 100px;
+    }
+
+    .title-plataformas {
+        font-size: 50px;
+        top: 100px;
+    }
+
+    .icones {
+        font-size: 70px;
+        top: 300px;
+    }
+
+    .menu {
+        width: 200px;
+    }
+
+    .menu a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    #main {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 16px;
+        top: 40px;
+    }
+
+    .texto {
+        font-size: 14px;
+        top: 100px;
+    }
+
+    .title-plataformas {
+        font-size: 40px;
+        top: 100px;
+    }
+
+    .icones {
+        font-size: 50px;
+        top: 270px;
+    }
+
+    .menu {
+        width: 150px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    #main {
+        padding: 4px;
+    }
+}

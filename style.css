@@ -134,3 +134,76 @@ body {
         opacity: 0;
     }
 }
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 20px;
+        top: 100px;
+    }
+
+    .subtitulo {
+        font-size: 12px;
+        top: 200px;
+    }
+
+    .nome {
+        font-size: 16px;
+        left: 115px;
+    }
+
+    .foto-usuario {
+        width: 40px;
+        height: 40px;
+        left: 70px;
+    }
+
+    .menu {
+        width: 200px;
+    }
+
+    .menu a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    #main {
+        padding: 8px;
+    }
+}
+
+/* Estilos para telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 16px;
+        top: 80px;
+    }
+
+    .subtitulo {
+        font-size: 10px;
+        top: 150px;
+    }
+
+    .nome {
+        font-size: 14px;
+        left: 105px;
+    }
+
+    .foto-usuario {
+        width: 30px;
+        height: 30px;
+        left: 70px;
+    }
+
+    .menu {
+        width: 150px;
+    }
+
+    .menu a {
+        font-size: 14px; /* Reduz ainda mais o tamanho da fonte */
+        padding: 6px 8px; /* Ajusta o espaçamento interno */
+    }
+
+    #main {
+        padding: 4px;
+    }
+}
